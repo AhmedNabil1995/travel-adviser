@@ -1,0 +1,37 @@
+.listdetails{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.listdetails img{
+    height: 250px;
+    width: 100%;
+}
+
+.listdetails h4{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+}
+
+.listdetails .detail{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.listdetails .detail i.fa-star{
+    color: gold;
+    margin-right: 2px;
+}
+
+.listdetails i{
+    color: gray;
+}
+
+.listdetails a{
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+    color:blue;
+}

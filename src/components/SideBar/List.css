@@ -1,0 +1,26 @@
+.list h3{
+    font-size: 25px;
+}
+
+.list .filter{
+    display: flex;
+}
+
+.list .filter select{
+    display: block;
+    border: none;
+    border-bottom:2px solid red;
+    outline: none;
+}
+
+.list .filter .filter-item{
+    padding: 5px;
+    font-size: 13px;
+}
+
+.list .list-details{
+    overflow: auto;
+    height: 500px;
+    margin-top: 10px;
+    padding: 10px 10px 0 0;
+}

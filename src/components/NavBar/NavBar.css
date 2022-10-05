@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: navy;
+    color: white;
+}
+
+.navbar p{
+    font-size: 18px;
+}
+
+.navbar div.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.navbar div.search{
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px;
+}
+
+.navbar div.search input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding:5px 10px;
+    font-size: 17px;
+}
